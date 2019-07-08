@@ -1,0 +1,27 @@
+li
+{
+	list-style-position: "center";
+.html-list{
+	list-style: square;
+}
+.css-list {
+	color: blue;
+}
+.center {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+}
+
+input, label, textarea {
+	display: block;
+	margin-top: .3em;
+}
+}
+center-list {
+	width: 50%;
+	list-style-position: inside;
+	text-align: left;
+	display: inline-block;
