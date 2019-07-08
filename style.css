@@ -1,27 +1,28 @@
-li
-{
-	list-style-position: "center";
-.html-list{
-	list-style: square;
+h1 {
+	color:black;
+	font-weight: bold;
 }
-.css-list {
-	color: blue;
+
+h2 {
+	color:indianred;
+	font-style:italic;
 }
-.center {
-	width: 100%;
-	margin: auto;
+
+body {
+	background-color: darkcyan;
 	text-align: center;
 }
 
+/* I can't figure out how to get this to change color but whatever*/
+.fearme {
+	color:green;
 }
 
-input, label, textarea {
-	display: block;
-	margin-top: .3em;
+ul {
+	display:inline-block;
+	text-align:left;
 }
+
+h1, h2 {
+	text-decoration: underline;
 }
-center-list {
-	width: 50%;
-	list-style-position: inside;
-	text-align: left;
-	display: inline-block;
